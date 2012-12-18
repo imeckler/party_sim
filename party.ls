@@ -63,6 +63,7 @@ class Person
     for guest in party.guestsInBall @location, SIGHT_RADIUS
       guest.desires.talk[this] += 1
 
+# Alternative idea: physics based implementation
 
 const CHARGE_CONSTANT = 1
 distance = (p1, p2) -> sqrt <| (p1.x - p2.x)^2 + (p1.y - p2.y)^2
